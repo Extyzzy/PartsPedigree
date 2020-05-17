@@ -1,0 +1,9 @@
+export const EventTypes = {
+  SHIPMENT: 7,
+  RECEIVING: 8,
+  ARRIVAL: 11,
+  ATTACHMENT: 10,
+  UPDATE_PART_INSTANCE: 4,
+  UPDATE_PART_MASTER: 3,
+  UPDATE_ORG_DATA: 6,
+};

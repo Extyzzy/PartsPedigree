@@ -1,0 +1,45 @@
+{
+  "name": "pp-mobile-tests",
+  "version": "1.0.0",
+  "description": "Parts Pedigree Mobile Automation Tests",
+  "private": true,
+  "main": "index.js",
+  "devDependencies": {
+    "appium": "1.8.1",
+    "babel-core": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.0.14",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.11.6",
+    "chai": "^2.2.0",
+    "chai-as-promised": "^5.0.0",
+    "mocha": "^2.4.5",
+    "wdio-allure-reporter": "^0.7.0",
+    "wdio-appium-service": "^0.2.3",
+    "wdio-mocha-framework": "^0.6.2",
+    "webdriverio": "^4.13.1"
+  },
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "report": "allure generate ./allure-results"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "sync-request": "^6.0.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ],
+    "plugins": [
+      [
+        "transform-runtime",
+        {
+          "polyfill": false,
+          "regenerator": true
+        }
+      ]
+    ]
+  }
+}
