@@ -32,7 +32,7 @@
     "native-base": "2.9.0",
     "prop-types": "15.6.1",
     "react": "16.6.3",
-    "react-native": "0.57.8",
+    "react-native": "0.70.4",
     "react-native-cli": "2.0.1",
     "react-native-collapsible": "^0.13.0",
     "react-native-datepicker": "^1.7.2",
