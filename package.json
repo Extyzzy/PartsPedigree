@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "axios": "0.18.0",
-    "baobab": "2.5.2",
+    "baobab": "2.6.1",
     "baobab-react": "3.0.0",
     "lodash": "4.17.5",
     "mixin-decorator": "1.0.5",
